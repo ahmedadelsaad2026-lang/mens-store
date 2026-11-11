@@ -1,0 +1,24 @@
+# Node Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production Build
+frontend/dist/
+
+# Laravel & Backend
+backend/vendor/
+backend/.env
+backend/.env.backup
+backend/.env.production
+backend/storage/*.key
+
+# Environment files
+.env
+.env.backup
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
